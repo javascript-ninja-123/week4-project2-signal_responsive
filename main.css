@@ -1,0 +1,262 @@
+body{
+	padding:0;
+	margin:0;
+	font-size:18px;
+}
+.navbar{
+	background-color:white;
+	border:white 1px solid;
+	position:absolute;
+
+}
+#navbar ul{
+	margin-top:1%;
+
+}
+#navbar ul li a{
+	color:skyblue;
+	font-size:0.7em;
+}
+#navbar ul li a:hover{
+	color:blue;
+}
+#content1 {
+	margin-top:12%;
+}
+#content1 img{
+	width:15%;
+	display:block;
+	margin:0 auto;
+}
+#content1 h1{
+	width:53%;
+	text-align:center;
+	margin:0 auto;
+	margin-top:2% !important;
+}
+#content1 p{
+	text-align:center;
+	margin-top:3%;
+}
+#content2{
+	margin-top:3%;
+}
+#content2 img{
+	width:30%;
+	margin:0 auto;
+	display:block;
+
+}
+#content2 .panel h3,p{
+	text-align:center;
+}
+#content2 h3{
+	color:skyblue;
+}
+#content2 .panel h3 > span{
+	color:skyblue;
+	text-decoration:underline;
+}
+#content2 .red-text1{
+	color:darkred;
+	width:100%;
+}
+#content2 p{
+	width:60%;
+	margin:0 auto;
+	margin-top:1%;
+	text-align:center;
+}
+#content3{
+	margin-top:2%;
+}
+#content3 h1{
+	width:70%;
+	text-align:center;
+	margin:0 auto;
+	margin-top:2% !important;
+}
+#content3 .sprite-image{
+
+	width:150px;
+	height:100px;
+	background:url("http://codifyacademy.com/salespage/img/img-customers.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	margin-left:8%;
+	
+}
+#content3 .sprite-image:hover{
+background-position:0 -104px;
+}
+#content3 .arrow{
+	margin-top:-4%;
+}
+
+#content3 .globe{
+	width:40%;
+	margin:0 auto;
+	display:block;
+}
+#content3 p{
+	width:100%;
+margin-left:30%;
+}
+#content3 .logo{
+	width:80%;
+	margin:0 auto;
+	display:block;
+	margin-top:2%;
+}
+#content4{
+	margin-top:3%;
+	
+	margin:0 auto;
+	width:90%;
+}
+#content4 h1{
+	margin-top:6% !important;
+	width:70%;
+	margin:0 auto;
+	text-align:center;
+}
+#content4 .first-column{
+	width:60%;
+	margin: 0 auto;
+	display:block;
+
+}
+#content4 ul{
+	list-style:none;
+	margin-top:4% !important;
+	
+}
+
+#content4 .number{
+	font-size:2em;
+	color:lightgrey;
+	margin-right:1%;
+}
+#content4 .red{
+	font-size:1.2em;
+	color:darkred;
+	font-weight:600;
+}
+#content4 ul li{
+	font-size:0.8em;
+}
+#content5{
+	margin-top:3%;
+}
+#content5 h1{
+	width:70%;
+	margin:0 auto;
+	text-align:center;
+}
+#content5 a{
+	display:block;
+}
+#content5 a.findout{
+	margin-left:15px;
+}
+#content5 img.book{
+	width:60%;
+	margin-top:-60px !important;
+	margin:0 auto;
+	display:block;
+	margin-right:10% !important;
+
+}
+
+#content5 p{
+	color:grey;
+	width:100%;
+	float:left;
+
+}
+#content5 span.name{
+	color:black;
+	font-size:0.6em;
+}
+#content5 div.main-content-text{
+margin-top:3%;
+
+}
+#content6 {
+	margin-top:3%;
+}
+#content6 h1{
+	width:70%;
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:5%;
+}
+#content6 .box-content{
+	width:70%;
+	margin:0 auto;
+	display:block;
+}
+#content6 p.red-text{
+	color:darkred;
+	font-weight:600;
+	border-bottom:1px lightgrey solid;
+	width:50%;
+	margin:0 auto;
+	padding-bottom:1%;
+}
+#content6 h4{
+	text-align:center;
+	font-weight:500;
+}
+#content6 p{
+	font-size:0.8em;
+}
+#content7 {
+	margin-top:3%;
+}
+#content7 p.red_text{
+	color:darkred;
+	font-weight:600;
+	font-size:0.9em;
+}
+#content7 ul{
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+#content7 ul li{
+	margin:1% 0;
+}
+#content7 ul li a{
+	font-size:0.8em;
+}
+footer{
+	font-size:0.5em;
+	color:grey;
+	margin-top:5%;
+}
+@media screen and (max-width:700px){
+	#content1{
+		margin-top:20%;
+	}
+	#content1 img{
+		width:40%;
+	}
+	 h1{
+		font-size:1em;
+	}
+}
+@media screen and (max-width:1016px){
+
+#content3 p{
+	margin:0 auto;
+	width:100%;
+	display:block;
+	margin:2% 0 !important;
+}
+#content5 h1{
+	margin-bottom:12%;
+}
+
+}
